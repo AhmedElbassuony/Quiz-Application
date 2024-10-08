@@ -120,7 +120,7 @@ function addQuestinoData(question, num) {
   document.querySelector(`.q_${currentindex + 1}`).classList.add("current");
 
   // add the countdown
-  countdown(5);
+  countdown(120);
 }
 
 function checkAnswer(rAnswer, num) {
